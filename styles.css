@@ -1,0 +1,71 @@
+/* Intialising font */
+
+@font-face {
+    font-family: Tungsten-Light;
+    src: url("fonts/Tungsten-Light.ttf");
+}
+
+/* Requisites */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Tungsten-Light";
+    background-color: black;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation bar on header */
+
+header {
+    position: sticky;
+}
+header::after{
+    content=''
+    color: white;
+    bottom: -2rem;
+}
+
+header nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+nav, .nav-links{
+    display: flex;
+}
+
+.nav-links{
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    text-decoration-color: black;
+    transition: color 1s;
+}
+
+.nav-links a:hover{
+    color: lightgray;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #808080;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.logo:hover{
+    cursor: default;
+}
