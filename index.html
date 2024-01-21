@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">    
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="mediaqueries.css">
+<link rel="stylesheet" href="devicequery.css">
 <script src="script.js"></script>
 <head>
     <meta charset="UTF-8">
@@ -11,11 +11,11 @@
 </head>
 <body>
     <header>
-        <nav id="header-nav">
+        <nav id="desktop-nav">
             <div class="logo">
                 <p>Thomas Obungu<p>
             </div>
-            <div>
+            <div class="desktop-nav-div">
                 <ul class="nav-links">
                     <li><a href="#About Me">About Me</a></li>
                     <li><a href="#Projects">Projects</a></li>
@@ -23,6 +23,50 @@
                 </ul>
             </div>
         </nav>
+        <nav id="mobile-nav">
+            <div class="mobile-logo">
+                <p>Thomas Obungu<p>
+            </div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMobileMenu()">
+                    <!-- Three lines on the mobile hamburger menu-->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="hamburger-menu-links">
+                    <ul>
+                        <li><a href="#About Me" onclick="toggleMobileMenu()">About Me</a></li>
+                        <li><a href="#Projects" onclick="toggleMobileMenu()">Projects</a></li>
+                        <li><a href="#Contact" onclick="toggleMobileMenu()">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+    <section id="profile">
+        <div class="profile-pic-contaienr">
+                <img src="images/profile.jpg" alt="Picture of Thomas Obungu">
+        </div>
+        <div class="section-text">
+            <p class="section-text-paragraph">My name is </p>
+            <h1 class="section-text-header">Thomas Obungu</h1>
+            <p class="section-text-paragraph-2">Computer Science Student</p>
+            <div class="button-container">
+                <button class="cv-button" onclick='window.open("./assets/cv.pdf")'>
+                        Download CV
+                </button>
+                <button class="contact-button" onclick="location.href='./#Contact'">
+                Contact Info</button>
+            </div>
+            <div id="socials container">
+                <img src="/images/github.png" alt="My github profile" class="icon"
+                onclick="location.href='https://github.com/ThomasObungu'" target
+                ></img>
+            </div>
+            </div>
+          
+        </div>
+    </section>
 </body>
 </html>
