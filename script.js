@@ -4,3 +4,4 @@ function toggleMobileMenu(){
     mobileIcon.classList.toggle("open");
     mobileMenu.classList.toggle("open");
 }
+console.log(window.outerWidth)
