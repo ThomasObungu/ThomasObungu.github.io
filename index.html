@@ -28,15 +28,15 @@
                 <p>Thomas Obungu<p>
             </div> -->
             <div class="hamburger-menu">
-                <div class="hamburger-icon" onclick="toggleMobileMenu()">
+                <div class="hamburger-icon" onclick="toggleMobileMenu();scrollingAnimation();">
                     <!-- Three lines on the mobile hamburger menu-->
                     <span></span>
                     <span></span>
-                    <span class="3rd-span"></span>
+                    <span></span>
                 </div>
                 <div class="hamburger-menu-links">
                     <ul>
-                        <li><a href="#About-Me" onclick="toggleMobileMenu()">About Me</a></li>
+                        <li><a href="#About-Me" onclick="toggleMobileMenu()" onclick>About Me</a></li>
                         <li><a href="#Projects" onclick="toggleMobileMenu()">Projects</a></li>
                         <li><a href="#Contact" onclick="toggleMobileMenu()">Contact</a></li>
                     </ul>
@@ -61,7 +61,7 @@
             </div>
             <div id="socials-container">
                 <img src="/images/github.png" alt="My github profile" class="icon"
-                onclick="location.href='https://github.com/ThomasObungu'" target
+                onclick="location.href='https://github.com/ThomasObungu'"
                 ></img>
             </div>
         </div>
@@ -70,9 +70,19 @@
         <h1 class="title">About Me</h1>
         <div class="about-container">
             <div class="about-details-container">
-                <div class="details container">
-                    <h2>Experience</h2>
+                <div class="details-container">
+                    <h2>Programming Languages</h2>
+                    <p>Python</p>
+                    <p>C/C++</p>
+                    <p>C#</p>
+                    <p>JavaScript</p>
                 </div>
+                <div class="details-container">
+                    <h2>Education</h2>
+                    <p>Computer Science GCSE Grade : 9</p>
+                    <p>Computer Science A level</p>
+                </div>
+                <div></div>
             </div>
         </div>
     </section>
