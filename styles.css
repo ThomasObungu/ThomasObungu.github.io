@@ -99,6 +99,7 @@ nav, .nav-links{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    position: relative;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -137,7 +138,6 @@ nav, .nav-links{
 
 .hamburger-icon.open span:first-child{
     transform: translate(0px,-5px);
-    transition-duration: 1s;
 }
 
 /* Profile */
@@ -149,13 +149,19 @@ section{
 }
 
 .section-text{
-    display: flex;
     display: inline-block;
     align-self: center;
     text-align: center;
 }
 
 #profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section-container{
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -261,5 +267,9 @@ section{
 }
 
 .details-container p{
+    font-size: 2rem;
+}
+
+.text-container p{
     font-size: 2rem;
 }
