@@ -2,7 +2,6 @@
 <html lang="en">    
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="devicequery.css">
-<script src="script.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,7 +52,7 @@
             <h1 class="section-text-header">Thomas Obungu</h1>
             <p class="section-text-paragraph-2">Computer Science Student</p>
             <div class="button-container">
-                <button class="cv-button" onclick='window.open("./assets/cv.pdf")'>
+                <button class="cv-button" onclick='window.open("./assets/Thomas-Obungu-CV.pdf")'>
                         Download CV
                 </button>
                 <button class="contact-button" onclick="location.href='./#Contact'">
@@ -61,7 +60,7 @@
             </div>
             <div id="socials-container">
                 <img src="/images/github.png" alt="My github profile" class="icon"
-                onclick="location.href='https://github.com/ThomasObungu'"
+                onclick="window.open('https://github.com/ThomasObungu')"
                 ></img>
             </div>
         </div>
@@ -72,21 +71,49 @@
             <div class="about-details-container">
                 <div class="text-container">
                     <p>
-                        I am intrested in computers, mathematics and programming and love to solve problems. 
-                        I do not mind a challenge and I am always wiling to learn from others and support too. 
-                        I like meeting new people and forming new relationships. If you would like to contact me details
-                        are at the bottom of the page!
+                        I am intrested in computers, mathematics and programming and enjoy problem solving. 
+                        I like a challenge and I am willing to learn from others. 
+                        I cherish meeting new people and forming connections. To contact me, find my details
+                        at the bottom of the page!
                     </p>
                 </div>
                 <div class="details-container">
                     <h2>Programming Languages</h2>
-                    <p>Python</p>
-                    <p>C/C++</p>
-                    <p>C#</p>
-                    <p>JavaScript</p>
+                    <p>Python : Advanced</p>
+                    <p>C/C++ : Intermediate</p>
+                    <p>C# : Basic </p>
+                    <p>JavaScript : Basic</p>
                 </div>
             </div>
         </div>
+        <h2 class="projects-title">Projects</h2>
     </section>
+    <section id="Projects">
+        <div class="project-details-container">
+                <div class="article-container">
+                    <video width="720" height="320" autoplay muted>
+                        <source src="assets/project-1-gameplay.mp4" type="video/mp4">
+                    </video>
+                </div>
+            <h2 class="project-sub-title">U.R.G</h2>
+            <div class="project-button-container">
+                <button class="cv-button" 
+                onclick="window.open('https://github.com/ThomasObungu/urg')">Github</button>
+            </div>
+        </div>
+        <div class="project-details-container">
+                <div class="article-container">
+                    <video width="720" height="320" autoplay muted>
+                        <source src="assets/project-2-gameplay.mp4" type="video/mp4">
+                    </video>
+                </div>
+            <h2 class="project-sub-title">Tcaster</h2>
+            <div class="project-button-container">
+                <button class="cv-button"
+                onclick="window.open('https://github.com/ThomasObungu/tcast')">Github</button>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -256,6 +256,7 @@ section{
 #About-Me{
     text-align: center;
     justify-content: space-around;
+    padding: 4rem;
 }
 
 .title {
@@ -272,4 +273,40 @@ section{
 
 .text-container p{
     font-size: 2rem;
+}
+
+/* Projects section */
+
+.projects-title{
+    padding: 4rem;
+    font-size: 4rem;
+}
+
+#Projects{
+    align-items: center;
+    display: flex;
+    padding: 15rem; 
+}
+
+.project-details-container{
+    border: white 0.1rem solid;
+    transition: all 1s;
+    border-radius: 2rem;
+    width: fit-content;
+    padding: 1rem;
+    margin: 1rem;
+}
+    
+.article-container{
+    border: gray 1px solid;
+    width: fit-content;
+}
+
+.project-sub-title{
+    text-align: center;
+}
+
+.project-button-container{
+    align-self: center;
+    float: left;
 }
