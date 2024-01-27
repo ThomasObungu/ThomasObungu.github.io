@@ -5,4 +5,8 @@
   #mobile-nav{
     display: flex;
   }
+
+  section{
+    margin: 15rem 10rem
+  };
 }

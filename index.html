@@ -11,24 +11,18 @@
 <body>
     <header>
         <nav id="desktop-nav">
-            <!-- <div class="logo">
-                <p>Thomas Obungu<p>
-            </div> -->
             <div class="desktop-nav-div">
                 <ul class="nav-links">
                     <li><a href="#About-Me">About Me</a></li>
+                    <li><a href="#Skills">Skills</a></li>
                     <li><a href="#Projects">Projects</a></li>
                     <li><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <nav id="mobile-nav">
-            <!-- <div class="mobile-logo">
-                <p>Thomas Obungu<p>
-            </div> -->
             <div class="hamburger-menu">
                 <div class="hamburger-icon" onclick="toggleMobileMenu();scrollingAnimation();">
-                    <!-- Three lines on the mobile hamburger menu-->
                     <span></span>
                     <span></span>
                     <span></span>
@@ -36,6 +30,7 @@
                 <div class="hamburger-menu-links">
                     <ul>
                         <li><a href="#About-Me" onclick="toggleMobileMenu()" onclick>About Me</a></li>
+                        <li><a href="#Skills" onclick="toggleMobileMenu()">Skills</a></li>
                         <li><a href="#Projects" onclick="toggleMobileMenu()">Projects</a></li>
                         <li><a href="#Contact" onclick="toggleMobileMenu()">Contact</a></li>
                     </ul>
@@ -49,7 +44,8 @@
         </div>
         <div class="section-text">
             <p class="section-text-paragraph">Hello, I am </p>
-            <h1 class="section-text-header">Thomas Obungu</h1>
+            <h1 class="section-text-header">Thomas Obungu.</h1>
+            <p>I am a</p>
             <p class="section-text-paragraph-2">Computer Science Student</p>
             <div class="button-container">
                 <button class="cv-button" onclick='window.open("./assets/Thomas-Obungu-CV.pdf")'>
@@ -65,52 +61,175 @@
             </div>
         </div>
     </section>
+
     <section id="About-Me">
         <h1 class="title">About Me</h1>
-        <div class="about-container">
-            <div class="about-details-container">
-                <div class="text-container">
-                    <p>
-                        I am intrested in computers, mathematics and programming and enjoy problem solving. 
-                        I like a challenge and I am willing to learn from others. 
-                        I cherish meeting new people and forming connections. To contact me, find my details
-                        at the bottom of the page!
-                    </p>
+        <div class="section-container">
+            <div class="about-me-details-container">
+                <div class="about-me-containers">
+                    <div class="details-container">
+                        <h3>Education</h3>
+                        <p>GCSE Computer Science <br> A level Computer Science</p>
+                    </div>
+                    <div class="text-container">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta earum molestias voluptatibus aut quo itaque incidunt iure harum numquam. Voluptatum tempore, optio facere unde sequi quae iure fugiat est iusto.
+                    </div>
+                </div>    
+            </div>
+        </div>    
+        <div class="arrow">
+            <img src="images/arrow.png" alt="down arrow icon" class="icon" 
+            onclick='location.href="./#Skills"'>
+        </div>
+    </section>
+    <section id="Skills">
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-subtitle">
+                        Frontend development
+                    </h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic    </p>
+                            </div>
+                        </article>
+                    </div>
                 </div>
                 <div class="details-container">
-                    <h2>Programming Languages</h2>
-                    <p>Python : Advanced</p>
-                    <p>C/C++ : Intermediate</p>
-                    <p>C# : Basic </p>
-                    <p>JavaScript : Basic</p>
+                    <h2 class="experience-subtitle">
+                        Backendend development
+                    </h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>    
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-subtitle">
+                        3GL
+                    </h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>C/C++</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-subtitle">
+                        Software Utility
+                    </h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Github</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./images/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Bash</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
                 </div>
             </div>
         </div>
-        <h2 class="projects-title">Projects</h2>
+        <div class="arrow">
+            <img src="images/arrow.png" alt="down arrow icon" class="icon" 
+            onclick='location.href="./#Projects"'>
+        </div>
     </section>
     <section id="Projects">
-        <div class="project-details-container">
-                <div class="article-container">
-                    <video width="720" height="320" autoplay muted>
-                        <source src="assets/project-1-gameplay.mp4" type="video/mp4">
-                    </video>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="details-container">
+                <div class="color-container">
+                    <div class="article-container">
+                        <video src="./assets/project-1-gameplay.mp4" width="720" height="480" 
+                        autoplay muted controls loop alt="raycasting engine made with Python"></video>
+                    </div>
+                    <h2 class="experience-subtitle project-subtitle">urg - Platformer made with Python</h2>
+                    <div class="button-container">
+                        <button class="cv-button project-button" onclick="window.open('https://github.com/ThomasObungu/urg')">
+                            Github
+                        </button>
+                    </div>
                 </div>
-            <h2 class="project-sub-title">U.R.G</h2>
-            <div class="project-button-container">
-                <button class="cv-button" 
-                onclick="window.open('https://github.com/ThomasObungu/urg')">Github</button>
             </div>
-        </div>
-        <div class="project-details-container">
-                <div class="article-container">
-                    <video width="720" height="320" autoplay muted>
-                        <source src="assets/project-2-gameplay.mp4" type="video/mp4">
-                    </video>
+            <div class="details-container">
+                <div class="color-container">
+                    <div class="article-container">
+                        <video src="./assets/project-2-gameplay.mp4" 
+                        autoplay muted controls loop alt="Raycasting made with Python"></video>
+                    </div>
+                    <h2 class="experience-subtitle project-subtitle">tcast - 2.5D Raycasting Engine made with Python</h2>
+                    <div class="button-container">
+                        <button class="cv-button project-button" onclick="window.open('https://github.com/ThomasObungu/tcast')">
+                            Github
+                        </button>
+                    </div>
                 </div>
-            <h2 class="project-sub-title">Tcaster</h2>
-            <div class="project-button-container">
-                <button class="cv-button"
-                onclick="window.open('https://github.com/ThomasObungu/tcast')">Github</button>
+            </div>
+            <div class="details-container">
+                <div class="color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3-gameplay.png" 
+                        alt="Platformer made with Python"></imgo>
+                    </div>
+                    <h2 class="experience-subtitle project-subtitle">videotools - command line video editor using ffmpeg</h2>
+                    <div class="button-container">
+                        <button class="cv-button project-button" onclick="window.open('https://github.com/ThomasObungu/videotools')">
+                            Github
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
