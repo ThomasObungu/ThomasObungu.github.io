@@ -340,6 +340,10 @@ article{
     gap: 0.5rem;
 }
 
+article h3{
+    font-size: 3rem;
+}
+
 /* Projects */
 
 #Projects{
@@ -376,8 +380,61 @@ article{
     border-color:gray;
 }
 
+/* Contact me */
 
+#Contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
 
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2rem;
+    border: white 0.1rem solid;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
 
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
 
+.contact-info-container p{
+    font-size: larger;
+}
+
+.contact-info-container a{
+    text-decoration-line: underline;
+    color: white;
+}
+
+.contact-icon{
+    cursor: default;
+}
+
+/* Footer */
+
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+.footer-nav{
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.nav-links-container{
+    display: flex;
+    justify-content: space-around;
+}
 
