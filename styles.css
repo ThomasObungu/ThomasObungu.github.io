@@ -248,6 +248,10 @@ section{
 /* About me */
 
 #About-Me{
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+
     padding: 4rem;
     position: relative;
 }
