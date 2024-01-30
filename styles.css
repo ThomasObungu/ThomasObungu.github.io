@@ -380,6 +380,11 @@ article h3{
     border-color:gray;
 }
 
+.article-container iframe{
+    width: 35vw;
+    height: 42vh;
+}
+
 /* Contact me */
 
 #Contact{
